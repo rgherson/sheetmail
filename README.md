@@ -1,2 +1,2 @@
 # sheetmail
-This is a python script, that using an excel sheet send emails on gmail automaticaly
+This is a python script for Windows, that using an excel sheet send emails on gmail automaticaly
