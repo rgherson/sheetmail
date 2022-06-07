@@ -1,0 +1,78 @@
+Sheetmail 1.0
+
+Esse é um script python para Windows. Ele dispara emails personalizados automaticamente usando um arquivo excel
+
+----ANTES DE USAR----
+
+Antes de rodar o script algumas considerações
+
+
+
+Você precisa das bibliotecas pwinput e openpyxl que não são padrão do python. Segue os link para instruções de instalação:
+https://pypi.org/project/pwinput/1.0.1/
+https://openpyxl.readthedocs.io/en/latest/index.html#installation
+
+
+
+Os nomes das pastas e dos arquivos que NÂO estão dentro delas, NÂO DEVEM SER ALTERADOS
+
+
+
+
+
+----MODO DE USAR----
+
+
+
+*PLANILHAS*
+
+Dentro da pasta planilhas voce deve colocar o seu excel. Se voce tiver varios arquivos dentro desta pasta o script te perguntara qual quer usar
+
+
+
+Para o funcionamento, alguma das sheets dentro do seu workbook deve se chamar Planilha1, caso queira usar outro nome pode alterar a constante NOME_SHEET, no arquivo constantes.py
+
+
+
+DENTRO DA PLANILHA:   olhe o modelo para vizualização
+
+Linha 1 - reservada para guias e titulos
+
+Coluna 1 - email que receberão as mensagens
+
+Coluna 2 - assuntos que irão em cada email
+
+Coluna 3 em diante - o conteuno que sera substituido no texto do email em ordem. Coluna 3- gap1, Coluna4 - gap 2...
+
+
+
+*TEXTO*
+
+Dentro da pasta texto voce deve colocar o texto padrão que será enviado para todos os email. Se voce tiver varios arquivos dentro desta pasta o script te perguntara qual quer usar
+
+
+
+Os gaps que serão substituidos pelo conteudo no excel são marcados por um triplo arroba, @@@
+
+
+
+*ANEXOS*
+
+Dentro da pasta anexos voce deve colocar todos os arquivos que serão anexados em todos os emails
+
+
+
+O arquivo de texto, permitidos, contem todas as terminações testadas que são autorizadas pelo servidor da google a serem anexadas automaticamente. 
+Se quiser testar outra terminação pode adicionala neste arquivo em uma nova linha
+
+
+
+
+
+----OBSERVAÇÕES----
+
+O servidor da google limita o disparo gratuito de email em 500 por dia
+
+
+
+Anexar arquivos .exe e .zip não é permitidos pela google por uma questão de segurança
