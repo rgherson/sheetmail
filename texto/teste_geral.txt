@@ -1,1 +1,6 @@
-Esse eh um teste. Coloque o gap aqui: @@@
+Esse eh um teste.
+Esse texto será enviado para todos os email que voce colocar no excel
+Os gaps sao individualizados conforme voce preencher no excel 
+Eles sao marcados por triplo arrobas entao
+Aqui vai aparecer o gap1 --->@@@
+E aqui vai aparecer o gap2 --->@@@
