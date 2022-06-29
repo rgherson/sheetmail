@@ -1,20 +1,25 @@
+OBSOLETO
+Desde 30 de maio de 2022, o google n√£o autoriza mais o acesso do script a sua conta apenas com usuario e senha. Uma nova atualiza√ß√£o ser√° feita em brese
+
+
+
 Sheetmail 1.0
 
-Esse È um script python para Windows. Ele dispara emails personalizados automaticamente usando um arquivo excel
+Esse √© um script python para Windows. Ele dispara emails personalizados automaticamente usando um arquivo excel
 
 ----ANTES DE USAR----
 
-Antes de rodar o script algumas consideraÁıes
+Antes de rodar o script algumas considera√ß√µes
 
 
 
-VocÍ precisa das bibliotecas pwinput e openpyxl que n„o s„o padr„o do python. Segue os link para instruÁıes de instalaÁ„o:
+Voc√™ precisa das bibliotecas pwinput e openpyxl que n√£o s√£o padr√£o do python. Segue os link para instru√ß√µes de instala√ß√£o:
 https://pypi.org/project/pwinput/1.0.1/
 https://openpyxl.readthedocs.io/en/latest/index.html#installation
 
 
 
-Os nomes das pastas e dos arquivos que N¬O est„o dentro delas, N¬O DEVEM SER ALTERADOS
+Os nomes das pastas e dos arquivos que N√ÇO est√£o dentro delas, N√ÇO DEVEM SER ALTERADOS
 
 
 
@@ -34,13 +39,13 @@ Para o funcionamento, alguma das sheets dentro do seu workbook deve se chamar Pl
 
 
 
-DENTRO DA PLANILHA:   olhe o modelo para vizualizaÁ„o
+DENTRO DA PLANILHA:   olhe o modelo para vizualiza√ß√£o
 
 Linha 1 - reservada para guias e titulos
 
-Coluna 1 - email que receber„o as mensagens
+Coluna 1 - email que receber√£o as mensagens
 
-Coluna 2 - assuntos que ir„o em cada email
+Coluna 2 - assuntos que ir√£o em cada email
 
 Coluna 3 em diante - o conteuno que sera substituido no texto do email em ordem. Coluna 3- gap1, Coluna4 - gap 2...
 
@@ -48,31 +53,31 @@ Coluna 3 em diante - o conteuno que sera substituido no texto do email em ordem.
 
 *TEXTO*
 
-Dentro da pasta texto voce deve colocar o texto padr„o que ser· enviado para todos os email. Se voce tiver varios arquivos dentro desta pasta o script te perguntara qual quer usar
+Dentro da pasta texto voce deve colocar o texto padr√£o que ser√° enviado para todos os email. Se voce tiver varios arquivos dentro desta pasta o script te perguntara qual quer usar
 
 
 
-Os gaps que ser„o substituidos pelo conteudo no excel s„o marcados por um triplo arroba, @@@
+Os gaps que ser√£o substituidos pelo conteudo no excel s√£o marcados por um triplo arroba, @@@
 
 
 
 *ANEXOS*
 
-Dentro da pasta anexos voce deve colocar todos os arquivos que ser„o anexados em todos os emails
+Dentro da pasta anexos voce deve colocar todos os arquivos que ser√£o anexados em todos os emails
 
 
 
-O arquivo de texto, permitidos, contem todas as terminaÁıes testadas que s„o autorizadas pelo servidor da google a serem anexadas automaticamente. 
-Se quiser testar outra terminaÁ„o pode adicionala neste arquivo em uma nova linha
+O arquivo de texto, permitidos, contem todas as termina√ß√µes testadas que s√£o autorizadas pelo servidor da google a serem anexadas automaticamente. 
+Se quiser testar outra termina√ß√£o pode adicionala neste arquivo em uma nova linha
 
 
 
 
 
-----OBSERVA«’ES----
+----OBSERVA√á√ïES----
 
 O servidor da google limita o disparo gratuito de email em 500 por dia
 
 
 
-Anexar arquivos .exe e .zip n„o È permitidos pela google por uma quest„o de seguranÁa
+Anexar arquivos .exe e .zip n√£o √© permitidos pela google por uma quest√£o de seguran√ßa
