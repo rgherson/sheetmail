@@ -1,5 +1,4 @@
-OBSOLETO
-Desde 30 de maio de 2022, o google não autoriza mais o acesso do script a sua conta apenas com usuario e senha. Uma nova atualização será feita em brese
+NOTA: intruções atualizadar para lidar com novas atualizações do google que agora não permitem mais apps estranhos a usarem senhas pessoais para acessar contas. Dessa forma é necessário a criação de uma senha de app
 
 
 
@@ -22,6 +21,13 @@ https://openpyxl.readthedocs.io/en/latest/index.html#installation
 Os nomes das pastas e dos arquivos que NÂO estão dentro delas, NÂO DEVEM SER ALTERADOS
 
 
+
+
+*LOGIN GOOGLE*
+
+Para que o script faça login no gmail que enviará os emails é necessário o uso de uma senha de app. Para criar uma senha de app sua conta google precisa ter verificação de duas etapas.
+Va em "gerenciar sua conta google" -> "segurança" -> "como fazer login na conta google" -> "senhas de app"
+Recomenda-se a exclusão da senha de app depois de usar o script
 
 
 
@@ -69,8 +75,6 @@ Dentro da pasta anexos voce deve colocar todos os arquivos que serão anexados e
 
 O arquivo de texto, permitidos, contem todas as terminações testadas que são autorizadas pelo servidor da google a serem anexadas automaticamente. 
 Se quiser testar outra terminação pode adicionala neste arquivo em uma nova linha
-
-
 
 
 
